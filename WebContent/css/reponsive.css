@@ -1,0 +1,65 @@
+@media screen and (max-width:1200px){
+ .menu_area ul#nav li a{font-size: 13px;padding: 13px;margin-right: 0;}   
+}
+@media screen and (max-width:1024px){
+ .menu_area ul#nav li a{font-size: 13px;padding: 15px;margin-right: 0;}   
+}
+
+@media screen and (max-width:768px){
+    
+.menu_area ul#nav li a{font-size: 13px;padding: 8px;font-weight: bold;margin-right: 20px;}
+    
+.slider{
+    margin: 30% auto;
+}
+    
+.about_us_text:hover{
+    
+    transform: scale(.9);
+}
+        
+.element-item {
+  width: 50%; 
+}
+    
+.team_member{
+    width: 47%;
+}
+    
+.client_message{
+    font-size: 13px;
+}
+
+.footer_adress,.footer_service,.footer_icon{border-bottom: 1px solid white;}    
+}
+
+@media screen and (max-width:640px){
+.slide_text h1{font-size: 40px;}
+.slide_text p{font-size: 20px;}  
+.menu_area ul#nav li a{font-size: 12px;padding: 7px;font-weight: bold;margin-right: 20px;}
+.element-item {
+  width: 100%;
+  border:25px solid white;
+}
+.button-group .button {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.team_member{
+    width: 100%;
+    border:25px solid white;
+}
+
+.member_social_icon ul{margin-top: 80px;}
+    
+}
+
+@media screen and (max-width:480px){
+.menu_area ul#nav li a{font-size: 12px;padding: 15px;margin-right: 0;}    
+#template_quality p{
+    font-size:14px;
+}
+.member_social_icon ul{margin-top: 75px;}
+}
